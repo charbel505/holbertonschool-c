@@ -1,9 +1,8 @@
-#include <stdio.h>
-
+ #include <stdio.h>
 /* Task 11 */
 
 /**
- *main- print all possible different combinations of two digits
+ *main- print different combinations of double-digit numbers
  *Return: 0 (Success)
  */
 int main(void)
@@ -26,7 +25,5 @@ int main(void)
 		}
 	}
 	putchar ('\n');
-   
-
 	return (0);
 }

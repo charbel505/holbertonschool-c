@@ -1,27 +1,26 @@
 #include <stdio.h>
-
-/* Task 12 */
+/* Project 12 */
 
 /**
- *main- print all possible different combinations of two digits
+ *main- print combination of 2 digits numbers
  *Return: 0 (Success)
  */
 int main(void)
 {
-	int a;
-	int b;
-	int c;
+	int nb1;
+	int nb2;
+	int nb3;
 
-	for (a = 0; a < 10; a++)
+	for (nb1 = 0; nb1 < 10; nb1++)
 	{
-		for (b = a + 1; b < 10; b++)
+		for (nb2 = nb1 + 1; nb2 < 10; nb2++)
 		{
-			for (c = b + 1; c < 10; c++)
+			for (nb3 = nb2 + 1; nb3 < 10; nb3++)
 			{
-				putchar(a + '0');
-				putchar(b + '0');
-				putchar(c + '0');
-				if (a != 7 || b != 8 || c != 9)
+				putchar(nb1 + '0');
+				putchar(nb2 + '0');
+				putchar(nb3 + '0');
+				if (nb1 != 7 || nb2 != 8 || nb3 != 9)
 				{
 					putchar(',');
 					putchar(' ');
@@ -30,7 +29,5 @@ int main(void)
 		}
 	}
 	putchar ('\n');
-   
-
 	return (0);
 }

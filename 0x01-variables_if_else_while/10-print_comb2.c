@@ -1,9 +1,8 @@
 #include <stdio.h>
-
 /* Task 10 */
 
 /**
- *main- print the numbers from 00 to 99
+ *main- print stuff
  *Return: 0 (Success)
  */
 int main(void)
@@ -21,7 +20,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-   
-
 	return (0);
 }
