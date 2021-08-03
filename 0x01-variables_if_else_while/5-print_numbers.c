@@ -1,16 +1,17 @@
 #include <stdio.h>
-
 /* Task 5 */
 
 /**
- *main- print from 0 to 9
+ *main- print numbers from 0 to 9
  *Return: 0 (Success)
+ *
  */
 int main(void)
 {
-	int i;
-	for(i=0; i<10; i++)
-		printf("%d\n", i);
+	int a;
 
+	for (a = 0; a < 10; a++)
+		printf("%d", a);
+	printf("\n");
 	return (0);
 }

@@ -1,17 +1,16 @@
 #include <stdio.h>
-
 /* Task 7 */
 
 /**
- *main- print the lowercase alphabet in reverse
+ *main- print reverse alphabets
  *Return: 0 (Success)
  */
 int main(void)
 {
-	char a;
-	for (a = 'z'; a >= 'a'; --a)
-		putchar(a);
-	putchar('\n');
+	char c;
 
+	for (c = 'z'; c >= 'a'; c--)
+		putchar(c);
+	putchar('\n');
 	return (0);
 }
