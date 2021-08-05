@@ -1,23 +1,10 @@
-#include "holberton.h"
 /**
- * _abs - prints absolute value of inserted number
+ * _abs - prints the absolute value of integer
+ * @i: integer
  *
- *
- * 
- *
+ * Return: absolute value of i
  */
 int _abs(int i)
 {
-	if (i < 0)
-	{
-		return (i * -1);
-	}
-	else if (i >= 0)
-	{
-		return (i);
-	}
-	else
-	{
-		return (i);
-	}
+	return (i < 0 ? -i : i);
 }
