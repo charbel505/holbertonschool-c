@@ -8,7 +8,7 @@ char *cap_string(char *Ch)
 {
 int i;
 	for (i = 0; Ch[i] != '\0'; i++)
-	{    
+	{
 		if (i == 0)
 		{
 			if ((Ch[i] >= 'a' && Ch[i] <= 'z'))

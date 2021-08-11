@@ -1,9 +1,10 @@
 #include <stdio.h>
+
 /**
- * print_number - prints an integer
- * @n: integer
+ * leet - encodes a string into 1337
+ * @Ch: string
  *
- * Return: void
+ * Return: pointer to encoded string
  */
 int main(void)
 {
