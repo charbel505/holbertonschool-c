@@ -1,5 +1,10 @@
 #include <stdio.h>
-
+/**
+ * print_number - prints an integer
+ * @n: integer
+ *
+ * Return: void
+ */
 int main(void)
 {
 	int n;
