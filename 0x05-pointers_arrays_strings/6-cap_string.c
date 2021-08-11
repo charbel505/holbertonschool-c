@@ -10,7 +10,7 @@ char *cap_string(char *Ch)
 
 	for (i = 0; Ch[i] != '\0'; i++)
 	{
-
+    
 		if (i == 0)
 		{
 			if ((Ch[i] >= 'a' && Ch[i] <= 'z'))
@@ -18,9 +18,9 @@ char *cap_string(char *Ch)
 			continue;
 		}
 		if (Ch[i] == ' ' || Ch[i] == '\n' || Ch[i] == '\t'
-		        || Ch[i] == ',' || Ch[i] == ';' ||  Ch[i] == '.'
-		        || Ch[i] == '!' || Ch[i] == '?' || Ch[i] == '"'
-		        || Ch[i] == '(' || Ch[i] == ')'
+|| Ch[i] == ',' || Ch[i] == ';' ||  Ch[i] == '.'
+|| Ch[i] == '!' || Ch[i] == '?' || Ch[i] == '"'
+|| Ch[i] == '(' || Ch[i] == ')'
 		    || Ch[i] == '{' || Ch[i] == '}')
 		{
 
